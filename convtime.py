@@ -27,12 +27,15 @@ def binsys():
    print("na dwojkowy ==>",int(y,2))
    print("na osemkowy ==>",int(y,8))
    print("na szesnastkowy ==>",int(y,16))
+  
+def timesys():
+        print("Aktualna data....")
    
 
 if wybor == 1:
   binsys()
 elif wybor == 2:
-  print("ok")
+  timesys()
 else:
   print("nie wiem co chcesz zrobic..")
 
