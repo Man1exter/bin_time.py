@@ -1,3 +1,4 @@
+import time
 
 print("[1] Zamiana jednostek..")
 print("[2] Dokladny czas lokalny..")
