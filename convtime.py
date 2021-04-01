@@ -30,7 +30,10 @@ def binsys():
    print("na szesnastkowy ==>",int(y,16))
   
 def timesys():
+        print(" ")
+        print(" ")
         print("Aktualna data....")
+        ctime = time.localtime()
    
 
 if wybor == 1:
