@@ -1,3 +1,4 @@
+import time
 
 print("[1] Zamiana jednostek..")
 print("[2] Dokladny czas lokalny..")
@@ -27,12 +28,20 @@ def binsys():
    print("na dwojkowy ==>",int(y,2))
    print("na osemkowy ==>",int(y,8))
    print("na szesnastkowy ==>",int(y,16))
+  
+def timesys():
+        print(" ")
+        print(" ")
+        print("Aktualna data....")
+        ctime = time.localtime()
+        print(ctime.tm_year,ctime.tm_mon,ctime.tm_isdst)
+        print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep=":")
    
 
 if wybor == 1:
   binsys()
 elif wybor == 2:
-  print("ok")
+  timesys()
 else:
   print("nie wiem co chcesz zrobic..")
 
