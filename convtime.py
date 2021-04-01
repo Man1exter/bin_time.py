@@ -41,6 +41,10 @@ def storyLife():
       print(" ")
       print(" ")
       print("Krotka historia o spaniu z time (:)")
+      print(" ")
+      print("Ide spac...")
+      time.sleep(2) # pod x ile sekund..
+      print("Minelo 2 sekundy od kiedy spie..")
    
 
 if wybor == 1:
