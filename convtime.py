@@ -2,6 +2,7 @@ import time
 
 print("[1] Zamiana jednostek..")
 print("[2] Dokladny czas lokalny..")
+print("[3] Historia o time.sleep")
 print(" ")
 print(" ")
 
@@ -30,18 +31,33 @@ def binsys():
    print("na szesnastkowy ==>",int(y,16))
   
 def timesys():
+      
         print(" ")
         print(" ")
         print("Aktualna data....")
         ctime = time.localtime()
         print(ctime.tm_year,ctime.tm_mon,ctime.tm_isdst)
         print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep=":")
+
+def storyLife():
+      
+      print(" ")
+      print(" ")
+      print("Krotka historia o spaniu z time (:)")
+      print(" ")
+      print("Ide spac...")
+      time.sleep(2) # pod x ile sekund..
+      print("Minelo 2 sekundy od kiedy spie..")
+      time.sleep(3)
+      print("dzieki opcji time.sleep(x) <=== moge trzymac konsole..")
    
 
 if wybor == 1:
   binsys()
 elif wybor == 2:
   timesys()
+elif wybor == 3:
+  storyLife()
 else:
   print("nie wiem co chcesz zrobic..")
 
