@@ -34,6 +34,8 @@ def timesys():
         print(" ")
         print("Aktualna data....")
         ctime = time.localtime()
+        print(ctime.tm_year,ctime.tm_mon,ctime.tm_isdst)
+        print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep=":")
    
 
 if wybor == 1:
