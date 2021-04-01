@@ -38,6 +38,8 @@ def timesys():
         print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep=":")
 
 def storyLife():
+      print(" ")
+      print(" ")
       print("Krotka historia o spaniu z time (:)")
    
 
