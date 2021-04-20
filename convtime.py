@@ -17,7 +17,7 @@ def binsys():
   wybor2 = int(input("Pozycja z menu =====> "))
 
   if wybor2 == 1:
-   x = int(input("Podaj liczbe binarna ===> "))
+   x = int(input("Podaj liczbe ===> "))
 
    print("hex => ",hex(x))
    print("oct => ",oct(x))
