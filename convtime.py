@@ -9,8 +9,8 @@ print(" ")
 wybor = int(input("Pozycja z menu =====> "))
 
 def binsys():
-  print("[1] Zamiana z liczby binarnej na inne....")
-  print("[2] Z innych na binarna...")
+  print("[1] Zamiana z liczby binarnej na inne.... ===> (5,12,15,23543) <===")
+  print("[2] Z innych na binarna... ===> (1010110,101011000) <=== ")
   print(" ")
   print(" ")
 
@@ -28,6 +28,7 @@ def binsys():
 
    print("na dwojkowy ==>",int(y,2))
    print("na osemkowy ==>",int(y,8))
+   print("na dziesietny ==>",int(y,10))
    print("na szesnastkowy ==>",int(y,16))
   
 def timesys():
