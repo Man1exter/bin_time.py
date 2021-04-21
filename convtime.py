@@ -39,6 +39,8 @@ def timesys():
         ctime = time.localtime()
         print(ctime.tm_year,ctime.tm_mon,ctime.tm_isdst)
         print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep=":")
+        print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep="-")
+        print(ctime.tm_hour,ctime.tm_min,ctime.tm_sec,sep="=")
 
 def storyLife():
       
@@ -50,7 +52,7 @@ def storyLife():
       time.sleep(2) # pod x ile sekund..
       print("Minelo 2 sekundy od kiedy spie..")
       time.sleep(3)
-      print("dzieki opcji time.sleep(x) <=== moge trzymac konsole..")
+      print("dzieki opcji time.sleep(x) <=== moge trzymac w czasie print jako w  konsoli..")
    
 
 if wybor == 1:
