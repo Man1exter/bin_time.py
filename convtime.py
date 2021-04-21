@@ -26,10 +26,10 @@ def binsys():
   elif wybor2 == 2:
    y = input("Podaj liczbe binarna ===> ")
 
-   print("na dwojkowy ==>",int(y,2))
-   print("na osemkowy ==>",int(y,8))
-   print("na dziesietny ==>",int(y,10))
-   print("na szesnastkowy ==>",int(y,16))
+   print("na system dwojkowy(2) ==>",int(y,2))
+   print("na system osemkowy(8) ==>",int(y,8))
+   print("na system dziesietny(10) ==>",int(y,10))
+   print("na system szesnastkowy(16) ==>",int(y,16))
   
 def timesys():
       
